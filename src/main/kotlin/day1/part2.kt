@@ -1,10 +1,10 @@
 package day1
 
-import getLines
+import readInput
 
 fun main() {
 
-    val lines = getLines("day1.txt")
+    val lines = readInput("day1")
     val m = mapOf(
         "one" to 1,
         "two" to 2,

@@ -1,10 +1,11 @@
 package day1
 
-import getLines
+import readInput
 
 fun main() {
 
-    val lines = getLines("day1.txt")
+    val lines = readInput("day1")
+
 
     val sum = lines.sumOf { line ->
         val first = line.first { it.isDigit() }
