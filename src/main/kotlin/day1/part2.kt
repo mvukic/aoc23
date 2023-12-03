@@ -1,10 +1,10 @@
 package day1
 
-import readInput
+import lines
 
 fun main() {
 
-    val lines = readInput("day1")
+    val lines = lines("day1")
     val m = mapOf(
         "one" to 1,
         "two" to 2,

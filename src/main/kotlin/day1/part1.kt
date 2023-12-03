@@ -1,10 +1,10 @@
 package day1
 
-import readInput
+import lines
 
 fun main() {
 
-    val lines = readInput("day1")
+    val lines = lines("day1")
 
 
     val sum = lines.sumOf { line ->

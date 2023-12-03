@@ -1,9 +1,9 @@
 package day2
 
-import readInput
+import lines
 
 fun main() {
-    val lines = readInput("day2")
+    val lines = lines("day2")
 
     val games = lines.map { Game.fromLine(it) }
     val valid = games.filter { it.isValid() }.sumOf { it.id }
